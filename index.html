@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ru">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Svetlana shop</title>
+  <link id="theme-style" rel="stylesheet" type="text/css" href="styles.css">
+ </head>
+ <body>
+  <header>
+   <h1>Svetlana shop</h1>
+  </header>
+  <nav id="nav">
+    <a href="#">Головна</a>
+    <a href="#">Про нас</a>
+    <a href="#">Контакти</a>
+  </nav>
+  <main>
+	<section class="products">
+            <div class="product">
+                <h2>🍾</h2>
+                <p>Шампанське</p>
+                <p class="price">240 грн</p>
+                <button onclick="addToCart('Товар 1', 1000)">Добавить в корзину</button>
+            </div>
+            <div class="product">
+                <h2>🍔</h2>
+                <p>Гамбургер</p>
+                <p class="price">45 грн</p>
+                <button onclick="addToCart('Товар 2', 2000)">Добавить в корзину</button>
+            </div>
+            <div class="product">
+                <h2>🍅</h2>
+                <p>Помідор</p>
+                <p class="price">80 грн/кг</p>
+                <button onclick="addToCart('Товар 2', 2000)">Добавить в корзину</button>
+            </div>
+            <div class="product">
+                <h2>🥦</h2>
+                <p>Броколі</p>
+                <p class="price">150 грн/кг</p>
+                <button onclick="addToCart('Товар 2', 2000)">Добавить в корзину</button>
+            </div>
+            <!-- Добавьте больше товаров по необходимости -->
+        </section>
+  </main>
+  <script src="script.js"></script>
+ </body>
