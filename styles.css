@@ -1,3 +1,13 @@
+/* styles.css */
+/* Общие стили */
+:root {
+    --tg-theme-secondary-bg-color: #ffffff;
+    --tg-theme-bg-color: #ffffff;
+    --tg-theme-text-color: #222222;
+    --tg-theme-accent-text-color: #8a70bb;
+    --tg-theme-button-text-color: #ffffff;
+}
+
 body {
     font-family: "Montserrat", sans-serif;
     margin: 0;
