@@ -45,7 +45,7 @@ width: 0px;
 h1 {
   position: relative;
 	color: var(--tg-theme-accent-text-color);
-  top: -98px;
+  top: -108px;
 	text-shadow: 0px 0px 60px var(--tg-theme-bg-color);
 }
 
