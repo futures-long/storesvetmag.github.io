@@ -22,7 +22,7 @@ body {
 #dollar {
 color: var(--tg-theme-accent-text-color);
 position: relative;
-top: 0px;
+top: -14px;
 font-size: 100px;
 transform: rotate(-20deg);
 opacity: 0.6;
@@ -33,7 +33,7 @@ width: 0px;
 #euro {
 color: var(--tg-theme-bg-color);
 position: relative;
-top: -190px;
+top: -204px;
 font-size: 100px;
 transform: rotate(20deg);
 opacity: 0.4;
@@ -45,7 +45,7 @@ width: 0px;
 h1 {
   position: relative;
 	color: var(--tg-theme-accent-text-color);
-  top: -108px;
+  top: -112px;
 	text-shadow: 0px 0px 60px var(--tg-theme-bg-color);
 }
 
