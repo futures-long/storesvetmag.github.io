@@ -7,8 +7,11 @@
   <link id="theme-style" rel="stylesheet" type="text/css" href="styles.css">
  </head>
  <body>
+	<div class='body'></div>
   <header>
+	<div id='dollar'>$</div>
    <h1>Svetlana shop</h1>
+	<div id='euro'>€</div>
   </header>
   <nav id="nav">
     <a href="index.html">Головна</a>
@@ -18,25 +21,25 @@
   <main>
 	<section class="products">
             <div class="product">
-                <h2>🍾</h2>
-                <p>Шампанське</p>
-                <p class="price">240 грн</p>
-                <button onclick="addToCart('Товар 1', 1000)">Добавить в корзину</button>
+                <div id='shamp'><img src="shampagne.png" alt="eeee"></div>
+                <p id='sh'>Шампанське</p>
+                <p class="price" id='shp'>240 грн</p>
+                <button onclick="addToCart('Товар 1', 1000)" id='shb'>Добавить в корзину</button>
             </div>
             <div class="product">
-                <h2>🍔</h2>
+                <div class='emoji'><img src="hamburger.png" alt="eeee"></div>
                 <p>Гамбургер</p>
                 <p class="price">45 грн</p>
                 <button onclick="addToCart('Товар 2', 2000)">Добавить в корзину</button>
             </div>
             <div class="product">
-                <h2>🍅</h2>
+                <div class='emoji'><img src="tomato.png" alt="eeee"></div>
                 <p>Помідор</p>
                 <p class="price">80 грн/кг</p>
                 <button onclick="addToCart('Товар 2', 2000)">Добавить в корзину</button>
             </div>
             <div class="product">
-                <h2>🥦</h2>
+                <div class='emoji'><img src="broccoli.png" alt="eeee"></div>
                 <p>Броколі</p>
                 <p class="price">150 грн/кг</p>
                 <button onclick="addToCart('Товар 2', 2000)">Добавить в корзину</button>
@@ -45,5 +48,4 @@
         </section>
   </main>
   <script src="script.js"></script>
-	 <script src="https://telegram.org/js/telegram-web-app.js"></script>
  </body>
